@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>login Page</title>
+<link href="styles.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div class="header">
+ <a href="home.html"> Home </a>
+ <a href="login.html"> login</a>
+ <a href="signup.html">Sign up</a>
+<div id='header1'>
+<a href="home.html">Course Shop</a>
+</div>
+</div>
+
+
+<div class="form">
+
+<h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="signup" method="get" action="signup.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+        <br><br>   
+<label><b>EmailId     
+        </b>    
+        </label><br>    
+        <input type="text" name="email" id="email" placeholder="Email" required>    
+        <br><br>
+
+
+<label><b>Date Of Birth</br>
+</label>
+<input type="date" name="bday" id="bday"><br><br>
+     
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
+        <br><br>
+
+<label><b>Confirm Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Confirm Password" required>    
+        <br><br>      
+        <button type="submit" class="x1">Sign Up</button>     
+        <br><br>
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>   
+<button type="button" class="cancelbtn">Cancel</button> 
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
+</div>
+
+
+<div class="sub">
+<a href=" " class="float1">
+<i class="fa fa-facebook-square"></i>
+</a>
+
+<a href=" " class="float1">
+<i class="fa fa-instagram"></i>
+</a>
+
+<a href=" " class="float1">
+<i class="fa fa-twitter"></i>
+</a>
+
+<a href=" " class="float1">
+<i class="fa fa-linkedin"></i>
+</a>
+
+
+</div>
+
+
+
+<div class="footer">
+  <p>This website is developed by <a href="https://www.education4ol.in/">Education4ol</a></p>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+</div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+</body>
+
+</html>

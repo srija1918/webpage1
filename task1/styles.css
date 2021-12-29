@@ -1,0 +1,348 @@
+Body{
+Background:#292F33;
+}
+
+
+.header{
+background-color:#FFFFFF;
+Overflow:hidden;
+Position:fixed;
+Width:100%;
+Top:0%;
+Height:12%;
+}
+
+.header a{
+Color:#292f33;
+Text-decoration:none;
+Font-size:30px;
+Font-family:serif;
+Float:right;
+Text-indent:40px;
+padding-top: 18px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+}
+
+.header a:hover {
+  color: red;
+-moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+}
+
+
+#header1 a{
+Color:#292F33;
+Text-decoration:none;
+Font-size:40px;
+Font-family:serif;
+Float:left;
+text-shadow: 1px 1px 1px #000000;
+}
+
+
+
+
+h2{
+Color:#000000;
+}
+
+
+.form{
+margin: 0;  
+    padding: 0;   
+    font-family: 'Arial'; 
+Padding-top:0px;
+Padding-left:10px;
+Padding-right:40px;
+
+}
+
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 100px;  
+        background: #F0F8FF;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;    
+    padding: 20px;  
+}  
+label{  
+    color:00008B;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#bday{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+      
+
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: #008B8B;  
+    font-size: 17px;  
+}  
+
+.cancelbtn {
+Float:right;
+width: auto;
+  padding: 8px 15px;
+color: blue; 
+font-weight: bold;
+Font-size:17px;
+}
+
+.x1{
+width: 300px;  
+    height: 40px;
+color: blue; 
+font-weight: bold;
+Font-size:17px;
+background: #F0F8FF; 
+}
+
+Button{
+background: #F0F8FF; 
+opacity: 0.8;
+cursor: pointer;
+}
+
+
+.footer {
+  Position:realtive;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+Height:40px;
+  color:#F8F8FF;
+  text-align: center;
+Font-size:15px;
+Font-family:serif;
+Padding-bottom:10px;
+}
+
+.footer a{
+Color:#87CEFA;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 100;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#F8F8FF;
+  color:#3b3a30;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+#myBtn:hover {
+  background-color: #DB7093;
+  Color:white;
+}
+
+.float1{
+Float:left;
+Text-indent:10px;
+Color:#DDA0DD;
+Font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:540px;
+	right:20px;
+       Left:10px;
+	background-color:#FFFAFA;
+	color:black;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 25px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+margin-bottom: 30px;
+}
+
+.card button{
+background: #DDA0DD; 
+opacity: 0.8;
+cursor: pointer;
+}
+
+.x2{
+width:100px;  
+    height: 30px;
+color:#800080; 
+font-weight: bold;
+Font-size:17px;
+background: #800080; 
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px 50px;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+column-gap: 10px;
+  row-gap: 1em;
+
+}
+
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+ border: solid;
+Grid-row:100px;
+}
+
+
+
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.main1{
+padding-top: 120px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+Text-align:center;
+}
+
+.card-body{
+Color: #F5FFFA;
+}
+
